@@ -1,0 +1,29 @@
+{
+  "name": "youwish-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "express-validator": "^7.2.0",
+    "metascraper": "^5.45.25",
+    "metascraper-description": "^5.45.25",
+    "metascraper-image": "^5.45.25",
+    "metascraper-title": "^5.45.25",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.7",
+    "normalize-url": "^8.0.1",
+    "validator": "^13.12.0"
+  }
+}
